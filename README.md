@@ -19,22 +19,22 @@ pip install pyupbit
 ***
 
 ## 1. 문제설명: 실시간 가상자산 트레이딩 만들기
-  * 단계 1: 스크래핑으로 화면 웹 데이터 가져오기 
-  * 단계 2: 스크래핑으로 수집한 (historic data)의 그래프 그리기
-  * 단계 3: PyQt5를 이용한 화면 UI 구성 
-  * 단계 4: Timer를 이용한 실시간 그래프 작성  
-  * 단계 5: 거래소별 가격차이가 발생했을 경우 지능형 알림 발생
+## 2. 1단계 1: 스크래핑으로 화면 웹 데이터 가져오기 
+## 3. 단계 2: 스크래핑으로 수집한 (historic data)의 그래프 그리기
+## 4. 단계 3: PyQt5를 이용한 화면 UI 구성 
+## 5. 단계 4: Timer를 이용한 실시간 그래프 작성  
+## 6. 단계 5: 거래소별 가격차이가 발생했을 경우 지능형 알림 발생
 
 
 ***
 
 
-* 단계1에서는 웹스크래핑과 Rest API를 이용한 예제를 보여준다. (1-1_scraping_simple.py)
+* 단계1에서는 웹스크래핑과 Rest API를 이용한 예제를 보여준다. (1-1_scraping_simple.py, 1-2_api_simple.py)
 
 <img src="/img/ex1-1.jpg" width="70%" height="70%" title="단계1 스크래핑으로 화면 웹 데이터 가져오기 예제" alt="ex1-1"></img>
 
 
-* 단계2에서는 스크래핑 (historic data)으로 가져온 데이터를 이용하여 파이썬에서 제공하는 데이터 시각화를 위한 라이브러리 중 matplotlib를 이용하여 그래프 그리기 예제를 보여준다. (2-1_scraping_graph.py)
+* 단계2에서는 스크래핑 (historic data)으로 가져온 데이터를 이용하여 파이썬에서 제공하는 데이터 시각화를 위한 라이브러리 중 matplotlib를 이용하여 그래프 그리기 예제를 보여준다. (2-1_scraping_graph.py, 2-2_api_graph.py)
 
 <img src="/img/ex1-2.jpg" width="70%" height="70%" title="단계2 스크래핑으로 모은 (historic data)의 그래프 그리기 예제" alt="ex1-2"></img>
 
@@ -44,7 +44,7 @@ pip install pyupbit
 <img src="/img/ex1-3.jpg" width="70%" height="70%" title="단계3 PyQt5를 이용한 화면 UI 구성 예제" alt="ex1-3"></img>
 
 
-* 단계4에서는 Timer를 이용하여 현재 거래소에서 제공하는 API를 이용하여 실시간 그래프 를 작성하는 예제를 보여준다. (4_timer_graph.py)   
+* 단계4에서는 Timer를 이용하여 현재 거래소에서 제공하는 API를 이용하여 실시간 그래프 를 작성하는 예제를 보여준다. (4_timer_graph.py, timer_graph_popup.py)   
 
 <img src="/img/ex1-4.jpg" width="70%" height="70%" title="단계4 Timer를 이용한 실시간 그래프 작성 예제" alt="ex1-4"></img>
 
